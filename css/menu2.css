@@ -1,0 +1,75 @@
+@font-face {
+	font-family:"Quicksand-Regular";
+	src:url(fonts/Quicksand-Regular.otf)format("truetype");
+}
+	.menu{
+		max-width: 100%;
+		background: transparent;
+		width: 100%;
+		margin:0 auto;
+		margin-top: 50px;
+	}
+	.menu ul{
+		list-style: none;
+	}
+	.menu ul li{
+		display: inline-block;
+		width: 167px;
+		padding: 8px;
+		text-align: center;
+		font-family:"Quicksand-Regular";
+		font-size: 19px;
+		color: #009ba8;
+		text-transform: uppercase;
+	}
+
+
+	.menu ul a li{
+		color: #009ba8;
+	}
+
+	.menu ul li:hover {
+		text-decoration: none;
+		/*color: green;*/
+		/*background: #fff101;*/
+		cursor: pointer;
+	}
+
+
+
+
+.menu ul li a:hover{
+	text-decoration: none;
+
+}
+
+
+
+#img_cua{
+	margin-top: 42px;
+}
+
+
+/* MENU DE NAVEGACION REDES SOCIALES */
+
+.social{
+	position:fixed;
+	left: 0;
+	top: 330px;
+	z-index: 2000;
+}
+
+.social ul{
+	list-style: none;
+}
+.social ul li{
+	width: 110px;
+}
+.social ul li a {
+	display: inline-block;
+	color: #fff;
+	padding: 5px 15px;
+	text-decoration: none;
+	cursor: pointer;
+
+}

@@ -1,0 +1,87 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+  <head>
+    <title>Experiencias</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../css/menu_optima.css">
+    <link rel="stylesheet" href="../css/estilos_optima.css">
+    <link rel="stylesheet" href="../css/anythingzoomer.css">
+    <link rel="shortcut icon" href="../img/optima.png" type="image/x-icon" />
+    <style media="screen">
+      #zoom{
+        height: auto;
+        width: 100%;
+        /*background: #009ba8;*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid navbar navbar-fixed-top" style="background:#009ba8;">
+      <div class="container " style="background:#009ba8;">
+        <div class="row" style="">
+          <div class="col-xs-12 col-md-3 col-lg-3">
+            <a href="../"><img src="../img/logoblanco.png" alt="" width="85%"/></a>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-6" >
+            <div class="menu">
+              <ul>
+                <a href="#"><li id="n1">Experiencias</li></a>
+                <a href="../servicios/"><li>Servicios</li></a>
+                <a href="../nosotros/"><li>Nosotros</li></a>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-3 col-lg-3">
+            <a href="https://www.facebook.com/Optimasa" target="_blank"><img src="../img/face.png" width="20%" style="float:left; margin-top:42px;" title="Facebook"></img></a>
+            <a href="https://www.youtube.com/user/optimagm" target="_blank"><img src="../img/youtube.png" width="20%" style="float:left; margin-top:50px;" title="Youtube"></img></a>
+            <a href="../contacto/"><img src="../img/msj.png" width="20%" style="float:left; margin-top:50px;" title="Contacto"></img></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row az-wrap" id="zoom">
+        <center>  <img src="../img/experiencias.png" alt="" width="80%" height="auto" data-zoom-image="../img/todosbyn.jpg" style="margin-top:110px;" id="foto1"/></center>
+      </div>
+    </div>
+
+  <footer class="container-fluid text-center">
+    <hr>
+    <div class="row">
+      <div class="col-xs-12 col-md-4 col-lg-4">
+        <a href="../contacto/"><img src="../img/msj.png" width="10%" style="float:right;"></img></a>
+        <a href="https://www.youtube.com/user/optimagm" target="_blank"><img src="../img/youtube.png" width="10%" style="float:right; margin-top:-1px;"></img></a>
+        <a href="https://www.facebook.com/Optimasa" target="_blank"><img src="../img/face.png" width="9%" style="float:right;"></img></a>
+      </div>
+      <div class="col-xs-12 col-md-6 col-lg-6">
+        <center>
+        <p style="float:left; padding-top:20px; color:#000;">
+          Pbx. (571) 637 3702 Cra. 18 No. 118 - 04 Bogotá D.C. - Colombia Políticas de Protección de la Información
+        </p>
+      </center>
+      </div>
+      <div class="col-xs-12 col-md-2 col-lg-2">
+        <a href="#" title="To Top">
+          <span class="glyphicon glyphicon-chevron-up" style="color:#000;"></span>
+        </a>
+        <p style="color:#000;">Optima tm <a href="" title=""></a></p>
+      </div>
+    </div>
+  </footer>
+    <!-- SCRIPTS-->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+
+
+    <script src="../js/jquery.elevateZoom-3.0.8.min.js"></script>
+    <script>
+      $("#foto1").elevateZoom({
+        lensShape : "round",
+        lensSize  : 200,
+        zoomType	: "lens"
+    	});
+    </script>
+  </body>
+</html>

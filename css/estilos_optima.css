@@ -1,0 +1,351 @@
+/* INVESTIGACION*/
+@font-face {
+	font-family:"Arial Black";
+	src:url(fonts/Arial Black.ttf)format("truetype");
+}
+@font-face {
+	font-family:"Quicksand-Regular";
+	src:url(fonts/Quicksand-Regular.otf)format("truetype");
+}
+
+	#logo{
+		width: 85%;
+	}
+	#inv{
+		height: 45px;
+		background-image: url(../img/inv.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	#inv p {
+		font-size: 20px;
+		font-family:"Quicksand-Regular";
+		color: #f7931d;
+		text-transform: uppercase;
+		text-align: center;
+		margin-left: -8px;
+		padding: 5px;
+	}
+	#cont_inv{
+		background:#fff;
+		display: none;
+	}
+
+#titulo{
+	font-size: 85px;
+	color: #009ba8;
+	letter-spacing: -5px;
+	text-align: right;
+	font-family:"Arial Black";
+	margin-left: 137px;
+	text-transform: uppercase;
+
+}
+
+#subT{
+	font-size: 50px;
+	color: #000;
+	text-align: right;
+	line-height: 56px;
+	font-family:"Quicksand-Regular";
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: -5px;
+	margin-top: -17px;
+
+
+}
+.h2{
+	color: #f7931d;
+	font-family:"Quicksand-Regular";
+	font-size: 25px;
+	text-align: center;
+}
+hr{
+	background: #000;
+	height: 1px;
+}
+ul.uno{
+	list-style-image: url("../img/cielo.png");
+
+}
+
+/* MEDIOS */
+#Tmedios{
+	font-size: 85px;
+	color: #f7931d;
+	letter-spacing: -5px;
+	text-align: center;
+	font-family:"Arial Black";
+	margin-left: -15px;
+	text-transform: uppercase;
+}
+
+#Sme{
+	font-size: 50px;
+	color: #000;
+	text-align: left;
+	line-height: 56px;
+	font-family:"Quicksand-Regular";
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: -5px;
+	margin-top: -17px;
+}
+
+#Dmedios{
+	text-align: left;
+	line-height:20px;
+	margin-left: -2px;
+
+}
+	#med{
+		height: 45px;
+		background-image: url(../img/med.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	#med p {
+		font-size: 20px;
+		font-family:"Quicksand-Regular";
+		color: #009ba8;
+		text-transform: uppercase;
+		text-align: center;
+		margin-left: -8px;
+		padding: 5px;
+	}
+	#cont_med{
+		background:;
+		display: none;
+	}
+
+	#pmed{
+		float: right;
+		text-align: right;
+		color: #000;
+	}
+	#pmed2{
+			float: left;
+			text-align: left;
+			color: #000;
+	}
+/* DIGITAL*/
+#Tdigital{
+	font-size: 50px;
+	color: #000;
+	letter-spacing: -5px;
+	text-align: left;
+	font-family:"Quicksand-Regular";
+	line-height: 65px;
+	text-transform: uppercase;
+}
+#Sdigital{
+	font-size: 33px;
+	color: #8bc63e;
+	text-align: center;
+	line-height: 53px;
+	font-family:"Quicksand-Regular";
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: -2px;
+}
+#Dtal{
+	text-align: right;
+	line-height:20px;
+}
+#Dtal2{
+	text-align: left;
+	line-height:20px;
+}
+#dig{
+	height: 45px;
+	background-image: url(../img/dig_d.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#dig  p {
+	font-size: 20px;
+	font-family:"Quicksand-Regular";
+	color: #8bc63e;
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: -8px;
+	padding: 5px;
+}
+#cont_dig{
+	background:;
+	display: none;
+}
+
+/* BTL*/
+#Tbtl{
+	font-size: 10em;
+	color: #8bc63e;
+	letter-spacing: -5px;
+	text-align: left;
+	font-family:"Arial Black";
+	text-transform: uppercase;
+	margin-top: -6px;
+	margin-left: -20px;
+}
+#Sbtl{
+	font-size: 60px;
+	color: #000;
+	text-align: left;
+	line-height: 67px;
+	font-family:"Quicksand-Regular";
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: -3px;
+	margin-top: -7px;
+	margin-left: -18px;
+}
+#Sbtl2{
+	font-size: 30px;
+	color: #dc185e;
+	text-align: center;
+	font-family:"Quicksand-Regular";
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: -1px;
+}
+
+	#btl_d{
+		height: 45px;
+		background-image: url(../img/btl_d.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	#btl_d  p {
+		font-size: 20px;
+		font-family:"Quicksand-Regular";
+		color: #b20055;
+		text-transform: uppercase;
+		text-align: center;
+		margin-left: -8px;
+		padding: 5px;
+	}
+	#cont_btl{
+		background:;
+		display: none;
+	}
+	#d_btl{
+		text-align: right;
+		float: right;
+	}
+
+/* ATL*/
+#Tatl{
+	font-size: 10em;
+	color: #f5d40c;
+	letter-spacing: -5px;
+	text-align: right;
+	font-family:"Arial Black";
+	text-transform: uppercase;
+	margin-top: -43px;
+	margin-right: -10px;
+}
+#Satl{
+	font-size: 60px;
+	color: #000;
+	text-align: right;
+	line-height: 68px;
+	font-family:"Quicksand-Regular";
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: -5px;
+	margin-top: -19px;
+	margin-right: -16px;
+}
+#Satl2{
+	font-size: 30px;
+	color: #009ba8;
+	text-align:center;
+	font-family:"Quicksand-Regular";
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: -1px;
+}
+#Datl{
+	text-align: center;
+	line-height:25px;
+}
+	#atl_d{
+		height: 45px;
+		background-image: url(../img/med.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	#atl_d  p {
+		font-size: 20px;
+		font-family:"Quicksand-Regular";
+		color: #009ba8;
+		text-transform: uppercase;
+		text-align: center;
+		margin-left: -8px;
+		padding: 5px;
+	}
+	#cont_atl{
+		background:;
+		display: none;
+	}
+/* contact center*/
+#Tcen{
+	font-size: 5em;
+	color: #009ba8;
+	letter-spacing: -5px;
+	text-align: left;
+	font-family:"Arial Black";
+	text-transform: uppercase;
+	line-height: 64px;
+	margin-left: -8px;
+}
+#Scen{
+	font-size: 60px;
+	color: #000;
+	text-align: left;
+	line-height: 56px;
+	font-family:"Quicksand-Regular";
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: -5px;
+}
+#Scont{
+	font-size: 30px;
+	color:#f7931d;
+	text-align: center;
+	font-family:"Quicksand-Regular";
+	text-transform: uppercase;
+	font-weight: 200;
+	letter-spacing: -1px;
+}
+#Dcont{
+	text-align: right;
+	line-height: 22px;
+	
+}
+#Dcont2{
+	text-align: left;
+	line-height: 22px;
+
+}
+
+	#con_d{
+		height: 45px;
+		background-image: url(../img/con_d.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	#con_d  p {
+		font-size: 20px;
+		font-family:"Quicksand-Regular";
+		color: #f7931d;
+		text-transform: uppercase;
+		text-align: center;
+		margin-left: -8px;
+		padding: 5px;
+	}
+	#cont_act{
+		background:;
+		display: none;
+	}

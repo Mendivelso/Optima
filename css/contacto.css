@@ -1,0 +1,243 @@
+
+
+@font-face {font-family: "Arial_Black_V2";
+  src: url("../css/fonts/Arial_Black_V2/Arial_Black_V2.woff") format("woff"), /* chrome、firefox */
+  url("../css/fonts/Arial_Black_V2/Arial_Black_V2.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+body {background:#FEFEFE;}
+
+
+hr{
+  height: 1px;
+  width: 100%;
+  background: #fff;
+}
+
+
+
+
+
+/*---------------------------------*/
+.tex01{
+	width:100%;
+	height:330px;
+	float:left;
+}
+
+.tex01 h1{
+	font-family: "Arial_Black_V2";
+	font-size:80px;
+	color:#FFF;
+	letter-spacing:-7px;
+	padding:0px;
+	margin:0px;
+  text-transform: uppercase;
+}
+
+.tex01 h2{
+	font-family: "Arial_Black_V2";
+	font-size:150px;
+	color:#FFED00;
+	letter-spacing:-8px;
+	padding:0px;
+	margin:0px;
+	margin-top:-45px;
+	margin-left:0px;
+  text-transform: uppercase;
+
+}
+
+#info{
+	width:880px;
+	height:auto;
+	margin:0 auto;
+	clear:left;
+	margin-left:25%;
+}
+
+#info h6{
+	font-family: 'Quicksand', sans-serif;
+	font-size:30px;
+	color:#FFF;
+	width:200px;
+	font-weight:300;
+	padding:3px 15px;
+	background:rgba(18,46,73,0.3);
+	float:left;
+}
+
+
+#info p{
+	font-family: 'Quicksand', sans-serif;
+	font-size:26px;
+	color:#FFF;
+	font-weight:300;
+	padding:8px;
+	float:left;
+}
+
+#mapa{
+	width:100%;
+	height:400px;
+	background:#06C;
+	margin:0 auto;
+	margin-top:95px;
+	clear:left;
+}
+
+
+.tex02{
+	width:100%;
+	height:auto;
+	float:left;
+}
+
+.tex02 h1{
+	font-family: "Arial_Black_V2";
+	font-size:80px;
+	color:#FFF;
+	letter-spacing:-3px;
+	padding:0px;
+	margin:0px;
+  text-transform: uppercase;
+  margin-top: 66px;
+}
+
+.tex02 h2{
+	font-family: "Arial_Black_V2";
+	font-size:150px;
+	color:#FFED00;
+	letter-spacing:-8px;
+	padding:0px;
+	margin:0px;
+	margin-top:-24px;
+  text-transform: uppercase;
+  margin-left: 0px;
+}
+
+
+
+
+
+/*#formulario h4{
+	font-family: 'Quicksand', sans-serif;
+	font-size:30px;
+	color:#FFF;
+	width:180px;
+	font-weight:300;
+	padding:10px 15px;
+	background:rgba(18,46,73,0.3);
+	float:left;
+	margin-top:15px;
+}*/
+
+.forInp{
+	width:100%;
+	height:43px;
+	background:rgba(255,255,255,0.8);
+	float:left;
+	border:none;
+	margin-top:-1px;
+	margin-left:6px;
+	font-size:20px;
+  border-radius: 1px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.forMens{
+	width:100%;
+	height:450px;
+	background:rgba(255,255,255,0.8);
+	float:left;
+	border:none;
+	margin-top:-2px;
+	margin-left:6px;
+  border-radius: 1px;
+  font-size:20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.enviar{
+	width:250px;
+	height:60px;
+	background:rgba(18,46,73,0.3);
+	float:right;
+	border:none;
+	font-family: 'Quicksand', sans-serif;
+	font-size:30px;
+	color:#FFF;
+	margin:30px 10px;
+	cursor:pointer;
+}
+
+.enviar:hover{
+	background:rgba(255,237,0,1);
+	font-family: 'Quicksand', sans-serif;
+	font-size:30px;
+	color:rgba(18,46,73,1);
+}
+
+label, button {
+  width:180px;
+  background:rgba(18,46,73,0.3);
+  height: 43px;
+  font-family: 'Quicksand', sans-serif;
+	font-size:25px;
+	color:#FFF;
+  font-weight:300;
+  text-align: justify;
+  text-transform: uppercase;
+
+}
+
+/*---------------------------------
+
+.personas{
+	width:615px;
+	height:330px;
+	float:left;
+	margin-bottom:70px;
+}
+
+
+
+.GSH{
+	width:100%;
+	height:300px;
+	clear:left;
+	position:relative;
+}
+
+.GSH h6{
+	width:100%;
+	font-family: 'Quicksand', sans-serif;
+	font-size:30px;
+	color:#FFF;
+	font-weight:300;
+	text-align:center;
+	padding:10px 0px;
+	background:rgba(0,0,0,0.1);
+
+}
+
+.parr01{
+	width:100%;
+	height:240px;
+}
+
+
+
+.ps1{
+	width:50%;
+	height:100%;
+	float:left;
+}
+.ps1 p{
+	font-family: 'Quicksand', sans-serif;
+	font-size:16px;
+	color:#FFF;
+	text-align:right;
+	padding:20px 10px 0px 370px;
+	letter-spacing:-1px;
+----*/
